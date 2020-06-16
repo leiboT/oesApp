@@ -1,8 +1,8 @@
 {
 	"pages": [{
-		"path": "pages/index/index",
+		"path": "pages/login/login",
 		"style": {
-			"navigationBarTitleText": "uni-ui基础项目"
+			"navigationBarTitleText": "登录"
 		}
 	}],
 	"globalStyle": {
@@ -10,5 +10,11 @@
 		"navigationBarTitleText": "uni-app",
 		"navigationBarBackgroundColor": "#007AFF",
 		"backgroundColor": "#FFFFFF"
+	},
+	"easycom": {
+		"autoscan": true,
+		"custom": {
+			"sf-(.*)": "@/components/sf-$1/sf-$1.vue" // 匹配components目录内的vue文件
+		}
 	}
 }

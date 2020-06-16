@@ -20,4 +20,7 @@ export default {
 	src: url('/static/uni.ttf');
 }
 /* #endif */
+uni-page-body{
+	height: 100%;
+}
 </style>
